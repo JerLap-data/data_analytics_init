@@ -46,4 +46,8 @@ def analyser_ventes(montant_ventes) :
 resultat = analyser_ventes(montant_ventes)
 print(resultat)
 
-    
+
+# Ajout de Zoubert
+def calcul_etendue(lst_nombre):
+    etendue = max(lst_nombre) - min(lst_nombre)
+    return etendue
